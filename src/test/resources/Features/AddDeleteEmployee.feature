@@ -1,5 +1,6 @@
 Feature: Add and delete function to employee list
 
+  @addDelete
   Scenario Outline: Admin should be able to add and delete employee
     Given The admin navigates to main page
     When The admin should be able to login

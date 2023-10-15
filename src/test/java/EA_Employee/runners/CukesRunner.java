@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/Features",
         glue = "EA_Employee/step_definitions",
         dryRun = false,
-        tags = ""
+        tags = "@addDelete"
 
 
 )
